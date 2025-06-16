@@ -1,0 +1,21 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+
+# VS code
+.vscode/
+
+# Compiled output
+*.o
+*.out
+*.exe
