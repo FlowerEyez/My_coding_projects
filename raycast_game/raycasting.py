@@ -20,7 +20,10 @@ def cast_rays(screen, player, map_data):
 					# Correct fish-eye
 					corrected_depth = depth * math.cos(ray_angle - player.angle)
 					wall_height = 30000 / (corrected_depth + 0.0001)
+					# Calculate screen column position and top/bottom of wall slice
 					screen_x = int(ray * (WIDTH / NUM_RAYS))
+					y1 = HEIGHT / 2 - wall_height / 2
+					y2 = HEIGHT / 2 + wall_height / 2
 					pygame.draw.line(screen, WALL_COLOR, (screen_x, y1), (screen_x, y2))
 					break
 		ray_angle += angle_step
