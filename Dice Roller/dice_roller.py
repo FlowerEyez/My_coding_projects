@@ -46,7 +46,7 @@ DICE_ART = {
     ),
 }
 def roll_dice(num_dice):
-    return [random.radiant(1, 6) for _ in range(num_dice)]
+    return [random.randint(1, 6) for _ in range(num_dice)]
     
 def display_dice(dice_values):
     rows = [""] * 5 # each die is 5 rows
