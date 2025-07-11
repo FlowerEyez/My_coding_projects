@@ -5,4 +5,5 @@ SpeechRecognition
 pyaudio
 torch
 numpy
-portaudio
+requests
+ollama
