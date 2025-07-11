@@ -1,0 +1,8 @@
+openai
+whisper
+pyttsx3
+SpeechRecognition
+pyaudio
+torch
+numpy
+portaudio
