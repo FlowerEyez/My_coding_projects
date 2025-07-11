@@ -1,7 +1,7 @@
 import requests
 
 # Update this to your main computer's IP (LAN)
-REMOTE_OLLAMA_HOST = "http://192.168.1.100:11434"
+REMOTE_OLLAMA_HOST = "http://127.0.0.1:11434"
 LOCAL_OLLAMA_HOST = "http://localhost:11434"
 
 # Which models you're running
