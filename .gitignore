@@ -1,22 +1,54 @@
-# OS and editor files
+# ========================
+# OS and Editor Files
+# ========================
+# macOS
 .DS_Store
+# Windows
 Thumbs.db
+# Vim swap files
 *.swp
 *~
 
+# ========================
 # Python
+# ========================
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
 env/
 venv/
 ascii-env/
+*.egg-info/
+dist/
+build/
+.env
 
-# VS code
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# ========================
+# Rust
+# ========================
+target/
+**/*.rs.bk
+
+# ========================
+# VS Code
+# ========================
 .vscode/
 
-# Compiled output
+# ========================
+# Compiled Output / Binaries
+# ========================
 *.o
 *.out
 *.exe
+*.dll
+*.so
+*.dylib
+
+# ========================
+# Logs
+# ========================
+*.log
